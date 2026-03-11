@@ -8,8 +8,8 @@ print("This is my first simple script")
 #Python Variables
 number = 27
 name = "Majesty"
-print("Number:", number)
-print("Name:", name)
+print(number)
+print(name)
 
 #Python Variable Names
 maria = "Raisen"
