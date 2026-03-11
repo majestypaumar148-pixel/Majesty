@@ -10,6 +10,7 @@ print("Multiplication:", a_int * b_int)
 print("Division:", a_int / b_int)
 print("Modulus:", a_int % b_int)
 print("Exponent:", a_int ** b_int)
+
 # Float variables
 a_float = 10.5
 b_float = 2.5
