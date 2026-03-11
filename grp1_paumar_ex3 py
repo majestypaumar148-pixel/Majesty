@@ -19,3 +19,13 @@ ana = "Mark Angel"
 print(raisen, jamella, aldrin, mark angel)
 
 #Many Values to Multiple Variables
+x, y, z = 9, 27, 13
+print(x)
+print(y)
+print(z)
+
+# One Value to Multiple Variables
+a = b = c = "Grapes"
+print(a)
+print(b)
+print(c)
