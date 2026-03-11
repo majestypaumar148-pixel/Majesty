@@ -12,10 +12,10 @@ print(number)
 print(name)
 
 #Python Variable Names
-maria = "Raisen"
-juan = "Jamella"
-pedro = "Aldrin"
-ana = "Mark Angel"
+raisen = "Raisen"
+jamella = "Jamella"
+aldrin = "Aldrin"
+mark angel = "Mark Angel"
 print(raisen, jamella, aldrin, mark angel)
 
 #Many Values to Multiple Variables
