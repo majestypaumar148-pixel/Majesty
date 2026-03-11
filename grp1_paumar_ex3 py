@@ -7,7 +7,7 @@ print("This is my first simple script")
 
 #Python Variables
 number = 27
-name = "Raisen"
+name = "Majesty"
 print("Number:", number)
 print("Name:", name)
 
