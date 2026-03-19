@@ -1,0 +1,62 @@
+# 1. Program to calculate the length of a string
+string = "God loves you"
+print("Length of the string:", len(string))
+
+Length of the string: 13
+
+
+# 2. Program to count the number of characters in a string
+string = "Rigor"
+count = 0
+for char in string:
+    count += 1
+print("Number of characters:", count)
+
+Number of characters: 5
+
+
+# 3. Program to replace all occurrences of the first character with '$', except the first one
+string = "google"
+first_char = string[0]
+new_string = first_char + string[1:].replace(first_char, '$')
+print("Modified string:", new_string)
+
+Modified string: goo$le
+
+
+# 4. Program to swap the first two characters of two strings and join them with a space
+string1 = "cde"
+string2 = "efg"
+new_string1 = string2[:2] + string1[2:]
+new_string2 = string1[:2] + string2[2:]
+result = new_string1 + " " + new_string2
+print("Swapped strings:", result)
+
+Swapped strings: efe cdg
+
+
+# 5. Concatenate 4 variables with spaces
+a = "Python"
+b = "is"
+c = "very"
+d = "powerful"
+result = a + " " + b + " " + c + " " + d
+print("Concatenated string:", result)
+
+Concatenated string: Python is very powerful
+
+
+# 6. Concatenate two strings from user input
+str1 = "Linda"
+str2 = "Walker"
+print("Concatenated string:", str1 + " " + str2)
+
+Concatenated string: Linda Walker
+
+# 7. Concatenate name and age in a paragraph
+name = "Majesty"
+age = 22
+paragraph = "My name is " + name + " and I am " + str(age) + " years old."
+print(paragraph)
+
+My name is Majesty and I am 22 years old.
