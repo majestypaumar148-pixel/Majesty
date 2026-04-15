@@ -1,0 +1,56 @@
+# -------------------------------
+# PART 1: Identify & Create
+# -------------------------------
+
+# Tuple of fruits
+fruits = ("guava", "strawberry", "peach", "grapes", "papaya")
+print("Tuple:", fruits)
+
+# List of daily tasks
+daily_tasks = ["wake up", "exercise", "study", "eat meals", "stop"]
+print("List:", daily_tasks)
+
+# Set of unique numbers
+numbers = {1, 2, 3, 4, 5}
+print("Set:", numbers)
+
+# Dictionary with keys
+student_info = {
+    "name": "Maj Pausar",
+    "age": 22,
+    "course": "BSIT"
+}
+print("Dictionary:", student_info)
+
+# -------------------------------
+# PART 2: Operations & Manipulations
+# -------------------------------
+
+# List operations
+daily_tasks = ["wake up", "exercise", "study", "eat meals", "solo class", "read", "sleep"]
+daily_tasks.append("review")   # Add new item
+daily_tasks.remove("study")    # Remove one item
+daily_tasks.sort()             # Sort alphabetically
+print("Updated List:", daily_tasks)
+
+# Tuple immutability test
+try:
+    fruits[0] = "pineapple"
+except TypeError as e:
+    print("Tuple Error:", e)
+
+# Set operations
+numbers.add(6)            # Add a value
+numbers.remove(3)         # Remove a value
+print("Updated Set:", numbers)
+
+# Dictionary operations
+student_info = {
+    "name": "Majesty",
+    "age": 22,
+    "course": "BSIT"
+}
+student_info["grade"] = "A"   # Add new key
+student_info["age"] = 23      # Update age
+print("Updated Dictionary Keys:", student_info.keys())
+print("Updated Dictionary:", student_info)
