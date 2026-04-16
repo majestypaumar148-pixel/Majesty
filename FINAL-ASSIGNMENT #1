@@ -1,0 +1,31 @@
+# INITIAL LIST
+my_list = [10, 20, 30]
+# Add 1 new item
+my_list.append(40)
+# Remove 1 item
+my_list.remove(20)
+# Sort the list
+my_list.sort()
+print("Updated List:", my_list)
+
+# INITIAL TUPLE
+my_tuple = (1, 2, 3)
+# Try modifying one element
+my_tuple[1] = 5
+
+# INITIAL SET
+my_set = {1, 2, 3}
+# Add a value
+my_set.add(4)
+# Remove a value
+my_set.remove(2)
+print("Updated Set:", my_set)
+
+# INITIAL DICTIONARY
+my_dict = {"name": "Majesty", "age": 21}
+# Add a new key "grade"
+my_dict["grade"] = "A"
+# Update your "age"
+my_dict["age"] = 22
+# Print all keys
+print("Dictionary Keys:", my_dict.keys())
